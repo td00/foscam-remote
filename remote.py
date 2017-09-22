@@ -37,7 +37,7 @@ while key != ord('q'):
     elif key == curses.KEY_RIGHT:
         stdscr.addstr(3, 20, "Right")
         do_move("ptzMoveRight")
-    elif key == curses.KEY_ENTER:
+    elif key == curses.KEY_END:
         stdscr.addstr(3, 20, "Stop")
         do_move("ptzStopRun")
 curses.endwin()
